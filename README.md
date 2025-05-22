@@ -1,1 +1,2 @@
 # brave-search
+newline
