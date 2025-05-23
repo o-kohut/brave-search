@@ -9,7 +9,3 @@ binding = "BROWSER"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["braveMCP"]
-
-[[durable_objects.bindings]]
-name = "MCP_OBJECT"
-class_name = "braveMCP"
