@@ -3,7 +3,7 @@
   "version": "1.0.10",
   "description": "An MCP server implementation that integrates the Brave Search API, providing both web and local search capabilities.",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
     "@types/express": "^5.0.1",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "deploy": "wrangler deploy dist/index.js",
+    "deploy": "wrangler deploy src/index.js",
     "dev": "nodemon --watch src --ext ts --exec \"node --loader ts-node/esm --no-warnings src/index.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
